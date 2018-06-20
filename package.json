@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RijoyChowdhury/node-web-server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Rijoy Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RijoyChowdhury/node-web-server/issues"
+  },
+  "homepage": "https://github.com/RijoyChowdhury/node-web-server#readme"
+}
