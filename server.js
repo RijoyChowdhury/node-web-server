@@ -20,12 +20,12 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use((req, res, next) => {
-  res.render('maintenance.hbs', {
-    pageTitle: 'Page under maintenance',
-    body: 'Page is under maintenance. Sorry for the inconvenience caused.',
-  });
-});
+// app.use((req, res, next) => {
+//   res.render('maintenance.hbs', {
+//     pageTitle: 'Page under maintenance',
+//     body: 'Page is under maintenance. Sorry for the inconvenience caused.',
+//   });
+// });
 
 app.use(express.static(__dirname+'/public'));
 
